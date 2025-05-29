@@ -8,4 +8,4 @@ The PRS calibration by genetic similarity can be represented as:
 
 〖PRS〗_(i,d)=  (x_i-μ_i)/σ_d 
 
-Where 𝑖 is REGARDS individual 𝑖; 𝑑 is the GSYRI decile grouping for individual 𝑖; 𝒙𝒊 is the observed unscaled PRS for person 𝑖; 𝝁𝒊 is the predicted PRS for person 𝑖 conditional on their GSYRI; and 𝝈𝒅 is the estimated standard deviation of PRS scores for REGARDS individuals in GSYRI decile 𝒅. 
+Where 𝑖 is  individual 𝑖; 𝑑 is the GSYRI decile grouping for individual 𝑖; 𝒙𝒊 is the observed unscaled PRS for person 𝑖; 𝝁𝒊 is the predicted PRS for person 𝑖 conditional on their GSYRI; and 𝝈𝒅 is the estimated standard deviation of PRS scores for individuals in GSYRI decile 𝒅. 
