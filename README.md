@@ -1,4 +1,4 @@
-# PRSCal
+# PRS_cal_intervals
 
 This repository provides code for calibrating polygenic risk score (PRS) values according to individualized genetic similarity estimates, specifically those derived using the program ADMIXTURE. 
 
