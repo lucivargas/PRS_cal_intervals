@@ -6,6 +6,17 @@ Briefly, the program calibrates each individual’s PRS value by regressing out 
 
 The PRS calibration by genetic similarity can be represented as:
 
-〖PRS〗_(i,d)=  (x_i-μ_i)/σ_d 
+$$
+PRS_{i,d}=  \frac{(x_i-\mu_i)}{\sigma_d}
+$$
 
-Where 𝑖 is  individual 𝑖; 𝑑 is the GSYRI decile grouping for individual 𝑖; 𝒙𝒊 is the observed unscaled PRS for person 𝑖; 𝝁𝒊 is the predicted PRS for person 𝑖 conditional on their GSYRI; and 𝝈𝒅 is the estimated standard deviation of PRS scores for individuals in GSYRI decile 𝒅. 
+Where  
+  $i$ is represents an individual $i$; <br>
+  $d$ is the GSYRI decile grouping for individual $i$; <br>
+  $x_i$ is the observed unscaled PRS for person $i$; <br>
+  $\mu_i$ is the predicted PRS for person 𝑖 conditional on their GSYRI; <br>
+  and $\sigma_d$ is the estimated standard deviation of PRS scores for individuals in GSYRI decile $d$.
+
+This method was used in the following publication: <br>
+[Ancestry Calibration of Polygenic Risk Scores Improves Risk Stratification and Effect Estimation in African American Adults. Vargas _et al_., (2025). _medRxiv_ 2025.06.18.25329573; doi: https://doi.org/10.1101/2025.06.18.25329573](https://doi.org/10.1101/2025.06.18.25329573)
+
